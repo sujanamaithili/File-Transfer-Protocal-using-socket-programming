@@ -2,8 +2,11 @@
 These functionalities have been implemented in the the program : 
 
 PUT <filename> : Transfer a file from client to server 
+  
 GET <filename> : Transfer a file from server to client 
+  
 MGET <extension> (example : MGET .txt): Transfer all files of a given extension from server to client 
+  
 MPUT <extension> (example : MPUT .txt): Transfer all files of a given extension from client to server
 
 File overwrite feature has been implemented along with it i.e. if the file is already present at the destination, then the client will be asked whether to overwrite the file or not.
